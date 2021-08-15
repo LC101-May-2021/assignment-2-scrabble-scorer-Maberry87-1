@@ -133,7 +133,6 @@ function runProgram() {
 	scorerPrompt(initialPrompt());
 }
 
-
 // Don't write any code below this line //
 // And don't change these or your program will not run as expected //
 module.exports = {
@@ -143,6 +142,9 @@ module.exports = {
    simpleScore: simpleScore,
    vowelBonusScore: vowelBonusScore,
    scrabbleScore: scrabbleScore,
-   scoringAlgorithms: scconst input = require("readline-sync");
+   scoringAlgorithms: scoringAlgorithms,
+   newPointStructure: newPointStructure,
+	runProgram: runProgram,
+	scorerPrompt: scorerPrompt
+};
 
-   
